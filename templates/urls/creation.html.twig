@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+	<h1>Please enter your URL to make it short !</h1>
+	{{form_start(form,{'attr': {'novalidate': 'novalidate'}})}}
+	{{form_end(form)}}
+
+{% endblock %}
